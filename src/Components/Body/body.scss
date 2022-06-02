@@ -1,0 +1,387 @@
+@import "../../app.scss";
+.body{
+    padding: 15px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    height: 100px;
+    padding: 0  5%;
+    select{
+        padding: 10px;
+        width: 120px;
+    }
+    option{
+        padding: 10px;
+        width: 120px;
+        height: 50px;   
+    }
+}
+.item-1{
+    grid-column: span 5 / span 5;
+    grid-row: span 5 / span 5;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 75%;
+        margin-left: 5%;
+        width: fit-content;
+        h4{
+            font-size: 18px;
+        }
+        .info{
+            display: flex;
+            align-items: baseline;
+            justify-content: flex-start;
+            h2{
+                font-size: 28px;
+            }
+                .growth{
+                    display: flex;
+                    align-items: baseline;
+                    height: 50%;
+                    h6{
+                        font-size: 14px;
+                    }
+                }
+            
+        }
+        .MuiButton-containedSizeMedium{
+            background-color: #fb9678;
+            color: white;
+            text-transform: capitalize;
+            width: 70%;
+            
+        }
+    }
+    .right{
+        height: 98%;
+        img{
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+}
+.item-2{
+    grid-column: span 3 / span 3;
+    grid-row: span 5 / span 5;
+    height: 200px;
+    .MuiIconButton-root{
+        background-color: #03c9d7;
+        color: white;
+    }
+}
+.temp{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 75%;
+        margin-left: 10%;
+        width: fit-content;
+        h4{
+            font-size: 18px;
+        }
+        .info{
+            h2{
+                font-size: 32px;
+            }
+            h5{
+                color: rgb(179, 175, 175);
+            }
+        }
+    }
+    .right{
+        height: 65%;
+        width: fit-content;
+        padding: 10%;
+    }
+}
+.item-3{
+    grid-column: span 4 / span 4;
+    grid-row: span 5 / span 5;
+    height: 200px;
+    .MuiIconButton-root{
+        background-color: #fb9678;
+        color: white;
+    }
+}
+.item-4{
+    grid-column: span 8 / span 8;
+    grid-row: span 12 / span 12;
+    height: 500px;
+    
+    .chart{
+        width: 98%;
+        padding: 0 1%;
+    }
+}
+.item-5{
+    grid-column: span 4/ span 4;
+    grid-row: span 12 / span 12;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .item-6 , .item-7{
+        color: white;
+        height: 48%;
+        width: 90%;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        margin: auto;
+        .body{
+            height: 10%;
+            width: 90%;
+            padding: 20px 0;
+        }
+        .chart{
+            width: 95%;
+        }
+        .info{
+            display: flex;
+            align-items: baseline;
+            justify-content: flex-start;
+            h2{
+                font-size: 28px;
+            }
+                .growth{
+                    display: flex;
+                    align-items: baseline;
+                    height: 50%;
+                    h6{
+                        font-size: 14px;
+                    }
+                }
+            
+        }
+    }
+    .item-6{
+        background-color: #03c9d7;
+    }
+    .item-7{
+        background-color: #fb9678;
+    }
+    
+}
+.item-8{
+    grid-column: span 4 / span 4;
+    min-height: 550px;
+
+    .donut{
+        height: fit-content;
+    }
+}
+.item-9{
+    grid-column: span 8 / span 8;
+    height: 550px;
+}
+.item-10{
+    grid-column: span 6 / span 6;
+    height: 425px;
+    display: flex;
+    align-items: center;
+}
+.item-11{
+    grid-column: span 6 / span 6;
+    height: 425px;
+    position: relative;
+    .chart{
+        padding: 20px;
+        padding-top: 35px;
+        margin-top: 0px;
+        height: 90%;
+    }
+}
+.item-12 , .item-13 ,.item-14{
+    grid-column: span 4 / span 4;
+    height: 500px;
+    overflow: hidden;
+}
+.item-13{
+    .content{
+        .listItem{
+            padding: 10px 25px ;
+            display: flex;
+            align-items: center;
+            height: 15%;
+            justify-content: space-between;
+            position: relative;
+            .left{
+                display: flex;
+                align-items: center;
+                height: 100%;
+                .icon{
+                    border-radius: 50%;
+                    width: 50px;
+                    height: 50px;
+                    margin-right: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #ffffff;
+                }
+                .info{
+                    h2{
+                        font-weight: 500;
+                        font-size: 16px;
+                    }
+                    p{
+                        margin-top: 5px;
+                        color: gray;
+                        font-size: 14px;
+                    }
+                }
+            }
+            .right{
+                background-color: lightgray;
+                color: gray;
+                border-radius: 5px;
+                padding: 5px;
+                font-size: 10px;
+            }
+        }
+    }
+    .chart{
+        width: 110%;
+        padding:0;
+        margin: 0;
+        margin-left: -20px;
+        height: 42%;
+    }
+}
+.item-14{
+    .Container{
+        margin-left: 20px;
+        height: 100%;
+        width: 90%;
+        .timeStamp{
+            margin: 15px 0;
+            margin-top: -15px;
+            background-color: rgb(229 250 251);
+            width: fit-content;
+            color: #03c9d7;
+            padding: 3px;
+            font-size: 12px;
+            border-radius: 5px;
+        }
+        .infoContainer{
+            display: flex;
+            height: 13%;
+            margin-top: 10px;
+            .info{
+                width: 33%;
+                height: 100%;
+                padding: 10px 15px;
+                p{
+                    font-size: 14px;
+                    color: gray;
+                }
+                h5{
+                    font-size: 14px;
+                }
+            }
+        }
+        .teams{
+            height: 20%;
+            h3{
+                font-size: 18px;
+                margin: 15px 0;        
+            }
+            .chipContainer{
+                padding: 5px 0; 
+                .chip1,.chip2{
+                    height: 25px;
+                    width: fit-content;
+                    border-radius: 7px;
+                    padding-left: 0;
+                    margin: 10px;
+                    margin-left: 0;
+                    margin-top: 0;
+                    color: white;
+                }
+                .chip1{
+                    background-color: #03c9d7;
+                }
+                .chip2{
+                    background-color:#fb9678;
+                }
+            }
+        }
+        .leader{
+            h3{
+                font-size: 18px;
+                margin: 15px 0;
+            }
+                .container{
+                    display: flex;
+                    margin: 15px 0;
+                    .avatar{
+                        margin: 5px;
+                        margin-left: 0;
+                    }
+                }
+            }
+        .foot{
+            display: flex;
+            flex: 1;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 15px;
+            button{
+                padding: 10px;
+                width: 70px;
+                border: none;
+                color: white;
+                background-color: #03c9d7;
+                border-radius: 10px;
+            }
+            p{
+                font-size: 14px;
+                color: gray;
+            }
+        }
+    }
+}
+.footer{
+    text-align: center;
+    grid-column: span 12 / span 12;
+}
+
+
+.item-1 , .item-2 ,.item-3{
+    @include mobile{
+        grid-column: span 12 / span 12;
+    }
+}
+.item-4 ,
+.item-5 ,
+.item-6 ,
+.item-7 ,
+.item-8 ,
+.item-9 ,
+.item-10 ,
+.item-11 ,
+.item-12 ,
+.item-13 ,
+.item-14 {
+    @include tablet{
+        grid-column: span 12 / span 12;
+
+    }
+}

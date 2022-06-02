@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    height: 64px;
+    background-color: var(background-color);
+    align-items: center;
+    justify-content: space-between;
+    .left{
+      padding: 0 20px ;  
+    }
+    .right{
+        display: flex;
+      padding: 0 20px ;  
+      align-items: center;
+        hr{
+            height: 60%;
+            margin: auto 0 ;
+        }
+    }
+}

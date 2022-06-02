@@ -1,0 +1,30 @@
+:root{
+    --background-color: #f7f9f9;
+}
+body{
+    background-color: var(--background-color);
+}
+
+@mixin tablet {
+    @media (max-width: 1200px) {
+      @content;
+    }
+  }
+  
+  @mixin mobile {
+    @media (max-width: 600px) {
+      @content;
+    }
+  }
+
+.gridBody{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(12 , minmax(0 , 1fr));
+    grid-template-rows: minmax(50px , auto);
+    gap: 2vw;
+    .grid-item{
+        background-color: #ffffff;
+        border-radius: 20px;
+    }
+}

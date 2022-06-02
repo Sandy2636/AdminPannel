@@ -1,0 +1,38 @@
+.TableRow{
+    height: 70px;
+    .TableHeading{
+        font-weight: 700;
+        font-size: 16px;
+        color: gray;
+    }
+    .TableAssign{
+        .cell{
+            display: flex;
+            align-items: center;
+            .Avatar{
+                margin: 0 10px;
+            }
+            p{
+                
+                font-weight:700;
+                font-size: 16px;
+            }
+        }
+    }
+    .TableTask{
+        font-size: 14px;
+        color: gray;
+    }
+    .TablePriority{
+        p{
+            background-color: red;
+            width: fit-content;
+            color: white;
+            padding: 2px 5px;
+            border-radius: 5px;
+        }
+    }
+    .TableBudget{
+        font-weight: 600;
+    }
+}
