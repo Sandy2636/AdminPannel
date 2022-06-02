@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/AdminPannel/static/css/main.f4124fa0.css",
+    "main.js": "/AdminPannel/static/js/main.d4f004da.js",
+    "static/media/bg.jpg": "/AdminPannel/static/media/bg.a4332e207f09d63ae6ff.jpg",
+    "index.html": "/AdminPannel/index.html",
+    "main.f4124fa0.css.map": "/AdminPannel/static/css/main.f4124fa0.css.map",
+    "main.d4f004da.js.map": "/AdminPannel/static/js/main.d4f004da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4124fa0.css",
+    "static/js/main.d4f004da.js"
+  ]
+}
